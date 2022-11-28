@@ -1,0 +1,46 @@
+PODS:
+  - InputBarAccessoryView (5.5.0):
+    - InputBarAccessoryView/Core (= 5.5.0)
+  - InputBarAccessoryView/Core (5.5.0)
+  - JGProgressHUD (2.2)
+  - MessageKit (3.8.0):
+    - InputBarAccessoryView (~> 5.5.0)
+  - Realm (10.32.3):
+    - Realm/Headers (= 10.32.3)
+  - Realm/Headers (10.32.3)
+  - RealmSwift (10.32.3):
+    - Realm (= 10.32.3)
+  - SDWebImage (5.14.2):
+    - SDWebImage/Core (= 5.14.2)
+  - SDWebImage/Core (5.14.2)
+  - SwiftLint (0.50.0)
+
+DEPENDENCIES:
+  - JGProgressHUD
+  - MessageKit
+  - RealmSwift
+  - SDWebImage
+  - SwiftLint
+
+SPEC REPOS:
+  trunk:
+    - InputBarAccessoryView
+    - JGProgressHUD
+    - MessageKit
+    - Realm
+    - RealmSwift
+    - SDWebImage
+    - SwiftLint
+
+SPEC CHECKSUMS:
+  InputBarAccessoryView: 1d7b0a672b36e370f01f264b3907ef39d03328e3
+  JGProgressHUD: d83d7a981b85d11205e19ff8ad5bb9c40571c847
+  MessageKit: a1ba0c69ebead94029867853eb44dd05b9b3f453
+  Realm: fdf6732924dc5e69e30e0db2c11e869f92b53f3d
+  RealmSwift: 7c181da8fa1c2fe613656a77c198d6a3dc3879a1
+  SDWebImage: b9a731e1d6307f44ca703b3976d18c24ca561e84
+  SwiftLint: 9cbf846727f3312f3ba722f2d7108a162cd050a5
+
+PODFILE CHECKSUM: d3ee7098e8e569b9df7347d1b9b36bf04b07ef5c
+
+COCOAPODS: 1.11.3
