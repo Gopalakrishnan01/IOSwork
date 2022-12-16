@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SearchTableViewCell" rowHeight="175" id="KGk-i7-Jjw" customClass="SearchTableViewCell" customModule="Chat" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="455" height="175"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="455" height="175"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Bho-bl-12x">
+                        <rect key="frame" x="10" y="10" width="70" height="155"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="70" id="2to-Cf-SDI"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="35"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ocx-gm-pLc">
+                        <rect key="frame" x="90" y="77.333333333333329" width="41.333333333333343" height="20.333333333333329"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Bho-bl-12x" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="1Bm-qV-VmZ"/>
+                    <constraint firstItem="ocx-gm-pLc" firstAttribute="leading" secondItem="Bho-bl-12x" secondAttribute="trailing" constant="10" id="Fb4-Ph-3o8"/>
+                    <constraint firstItem="ocx-gm-pLc" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="N9K-Hb-OZt"/>
+                    <constraint firstItem="Bho-bl-12x" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="bzY-Ue-BAh"/>
+                    <constraint firstItem="Bho-bl-12x" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="hcu-1d-RwR"/>
+                    <constraint firstAttribute="bottom" secondItem="Bho-bl-12x" secondAttribute="bottom" constant="10" id="sEe-kV-fiA"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="nameLabel" destination="ocx-gm-pLc" id="wy6-US-Dwq"/>
+                <outlet property="profileImage" destination="Bho-bl-12x" id="b4a-Q2-tIK"/>
+            </connections>
+            <point key="canvasLocation" x="240.76923076923077" y="67.180094786729853"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21512" systemVersion="21G83" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Chats" representedClassName="Chats" syncable="YES" codeGenerationType="class">
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="imageUrl" optional="YES" attributeType="String"/>
+        <attribute name="latestMessageDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="latestMessageIsRead" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="latestMessageText" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="otherUserPhoneNumber" optional="YES" attributeType="String"/>
+    </entity>
+</model>
